@@ -37,6 +37,7 @@ table {
     --orange-1: #F2921D;
     --green-1: #8CBF3F;
     --purple-1: #7A6DA6;
+    --purple-2: #6358ab;
     --white-1: #F2F2F2;
     --red-1: #F20505;
     --gray-1: #C2C1C0;
@@ -199,7 +200,7 @@ body{
 
 .text-hero h3{
     font-weight: 900;
-    color: var(--purple-1);
+    color: var(--purple-2);
 }
 
 .sc-view{
@@ -260,4 +261,36 @@ body{
 
 .fa-brands.fa-pinterest, .fa-brands.fa-youtube{
     color: var(--purple-1);
+}
+
+.banner-sc{
+    display: none;
+    width: 100%;
+    padding: 40px;
+}
+
+.text-menu-sc{
+    padding: 20px;
+    gap: 20px;
+    text-align: left;
+}
+
+.text-menu-sc h3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    font-weight: 800;
+    height: 47px;
+    position: relative;
+}
+
+.text-menu-sc h3::after{
+    content: '';
+    padding: 1px;
+    bottom: 0;
+    height: 1px;
+    width: 30%;
+    position: absolute;
+    background-color: var(--orange-1);
 }
