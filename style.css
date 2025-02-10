@@ -294,3 +294,40 @@ body{
     position: absolute;
     background-color: var(--orange-1);
 }
+
+.footer-sc{
+    background-color: var(--purple-2);
+    padding: 20px;
+    gap: 10px;
+}
+
+.text-ft-sc{
+    color: var(--white-2);
+    text-align: center;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-ft-sc p{
+    font-weight: 900;
+}
+
+.links-ft{
+    width: 100%;
+}
+
+.links-ft ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.links-ft ul li a{
+    font-size: .60em;
+    color: var(--white-2);
+}
