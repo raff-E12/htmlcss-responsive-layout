@@ -109,7 +109,7 @@ b{
 }
 
 a{
-    font-size: 1rem;
+    font-size: .90rem;
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -216,12 +216,20 @@ body{
 .list-hero{
     background-color: var(--white-2);
     width: 100%;
-    padding: 14px;
+    padding: 18px;
     display: flex;
     gap: 10px;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+}
+
+.list-hero ul{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
 }
 
 .list-hero h5{
@@ -272,6 +280,7 @@ body{
 .text-menu-sc{
     padding: 20px;
     gap: 20px;
+    width: 350px;
     text-align: left;
 }
 
@@ -325,9 +334,9 @@ body{
     justify-content: center;
     flex-direction: row;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .links-ft ul li a{
-    font-size: .60em;
     color: var(--white-2);
 }

@@ -1,1 +1,31 @@
 @import url(style.css);
+
+/* MediaBreak del sito */
+
+@media screen and (min-width:500px) {
+    .text-logo{
+        text-align: left;
+    }
+
+    .info-sc{
+        width: 100%;
+        border: 2px solid red;
+    }
+
+    .info-sc .list-hero ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%; 
+        flex-wrap: wrap;
+    }
+
+    .list-hero ul li{
+        width: 100%;
+    }
+
+    .list-hero{
+        padding: 24px;
+    }
+}
