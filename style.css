@@ -182,7 +182,6 @@ body{
 }
 
 .hero-sc{
-    background-color: var(--white-1);
     gap: 20px;
     padding: 20px;
 }
@@ -204,13 +203,18 @@ body{
 }
 
 .sc-view{
-    width: 200%;
+    width: 100%;
     height: 190px;
     overflow: hidden;
 }
 
 .info-sc{
     width: 350px;
+    background-color: var(--white-2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .list-hero{
@@ -279,9 +283,9 @@ body{
 }
 
 .text-menu-sc{
-    padding: 20px;
+    padding: 40px;
     gap: 20px;
-    width: 350px;
+    width: 450px;
     text-align: left;
 }
 
@@ -293,6 +297,10 @@ body{
     font-weight: 800;
     height: 47px;
     position: relative;
+}
+
+.text-menu-sc p{
+    line-height: 30px;
 }
 
 .text-menu-sc h3::after{
