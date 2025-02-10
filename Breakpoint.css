@@ -2,14 +2,26 @@
 
 /* MediaBreak del sito */
 
-@media screen and (min-width:500px) {
+@media screen and (min-width:520px) {
     .text-logo{
         text-align: left;
     }
 
     .info-sc{
         width: 100%;
-        border: 2px solid red;
+    }
+
+    .sc-view{
+        width: 700px;
+        height: 263px;
+    }
+
+    .hero-sc{
+        width: 520px;
+    }
+
+    .social-box{
+        width: 270px;
     }
 
     .info-sc .list-hero ul{
@@ -17,7 +29,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: row;
-        width: 100%; 
+        width: 100%;
         flex-wrap: wrap;
     }
 
@@ -27,5 +39,36 @@
 
     .list-hero{
         padding: 24px;
+    }
+
+    .banner-sc{
+        display: block;
+        padding: 10px;
+    }
+
+    .text-menu-sc.container.left.col{
+        width: 100%;
+        display: block;
+    }
+
+    .text-menu-sc h3{
+        margin-bottom:  20px;
+    }
+
+    .img-menu{
+        width: 200px;
+        float: left;
+        margin: 12px;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .hero-sc{
+        width: 620px;
+    }
+
+    .sc-view{
+        width: 700px;
+        height: 323px;
     }
 }

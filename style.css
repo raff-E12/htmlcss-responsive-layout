@@ -249,6 +249,7 @@ body{
     flex-direction: row;
     padding: 14px;
     border-radius: 100px;
+    box-shadow: 0px 0px 10px 2px var(--gray-1);
 }
 
 .social-box p{
