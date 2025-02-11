@@ -118,8 +118,9 @@
 
   .list-hero{
     height: auto;
-    padding: 20px;
+    padding: 50px;
     gap: 30px;
+    align-self: baseline;
     text-transform: capitalize;
   }
 
