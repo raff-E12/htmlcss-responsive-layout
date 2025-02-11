@@ -99,6 +99,7 @@
 @media screen and (min-width:1009px){
     .hero-sc{
         width: 100%;
+        padding: 30px;
     }
 
     .sc-view{
