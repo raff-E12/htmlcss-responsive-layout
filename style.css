@@ -33,6 +33,8 @@ table {
   border-spacing: 0;
 }
 
+/* Colori di utilizzo */
+
 :root{
     --orange-1: #F2921D;
     --green-1: #8CBF3F;
