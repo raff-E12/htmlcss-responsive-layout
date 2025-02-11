@@ -17,7 +17,7 @@
     }
 
     .hero-sc{
-        width: 470px;
+        width: 490px;
     }
 
     .social-box{
@@ -43,7 +43,8 @@
 
     .banner-sc{
         display: block;
-        padding: 30px;
+        padding: 39px;
+        width: 100%;
     }
 
     .text-menu-sc.container.left.col{
@@ -71,6 +72,11 @@
         width: 100%;
         height: auto;
     }
+    .banner-sc{
+        display: block;
+        padding: 17px;
+        width: 90%;
+    }
 }
 
 @media screen and (min-width:900px){
@@ -81,6 +87,12 @@
     .sc-view{
         width: 100%;
         height: auto;
+    }
+
+    .banner-sc{
+        display: block;
+        padding: 10px;
+        width: 90%;
     }
 }
 
@@ -136,6 +148,7 @@
 
 .banner-sc{
     width: 91%;
+    padding: 30px;
 }
 
 .footer-sc.container.col{
