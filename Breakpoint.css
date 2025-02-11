@@ -2,6 +2,8 @@
 
 /* MediaBreak del sito */
 
+/* Addattamento Tablet */
+
 @media screen and (min-width:520px) {
     .text-logo{
         text-align: left;
@@ -78,6 +80,8 @@
         width: 90%;
     }
 }
+
+/* Adattamento per il Desktop */
 
 @media screen and (min-width:900px){
     .hero-sc{
